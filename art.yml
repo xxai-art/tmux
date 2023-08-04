@@ -24,3 +24,11 @@ windows:
     - ./dev.sh
   start_directory: /Users/z/wac.tax/rsrv
   window_name: rsrv
+- layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  start_directory: /Users/z/art/clip-runtime/rust/clip_search_txt
+  window_name: clipTxt
