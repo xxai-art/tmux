@@ -7,14 +7,14 @@ windows:
   - shell_command:
     - ./dev.sh
   window_name: web
-  start_directory: /Users/z/wac.tax/web
+  start_directory: ~/wac.tax/web
 - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
   options: {}
   panes:
   - focus: 'true'
   - shell_command:
     - ./dev.sh
-  start_directory: /Users/z/wac.tax/api
+  start_directory: ~/wac.tax/api
   window_name: api
 - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
   options: {}
@@ -22,7 +22,7 @@ windows:
   - focus: 'true'
   - shell_command:
     - ./dev.sh
-  start_directory: /Users/z/wac.tax/rsrv
+  start_directory: ~/wac.tax/rsrv
   window_name: rsrv
 - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
   options: {}
@@ -30,5 +30,5 @@ windows:
   - focus: 'true'
   - shell_command:
     - ./dev.sh
-  start_directory: /Users/z/art/clip-runtime/rust/clip_search_txt
-  window_name: clipTxt
+  start_directory: ~/wac.tax/clip-runtime/rust/clip_search_txt
+  window_name: clip
