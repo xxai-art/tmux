@@ -32,3 +32,11 @@ windows:
     - ./dev.sh
   start_directory: ~/wac.tax/clip-runtime/rust/clip_search_txt
   window_name: clip
+- layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  start_directory: ~/wac.tax/rsrv/xws
+  window_name: xws
