@@ -1,0 +1,42 @@
+session_name: i18n
+windows:
+- layout: fdc8,170x52,0,0{125x52,0,0,1,44x52,126,0,4}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  window_name: web
+  start_directory: ~/3Ti/site
+- layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+  options: {}
+  panes:
+  - focus: 'true'
+  - shell_command:
+    - ./dev.sh
+  start_directory: ~/3ti/srv/rust
+  window_name: api
+# - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+#   options: {}
+#   panes:
+#   - focus: 'true'
+#   - shell_command:
+#     - ./dev.sh
+#   start_directory: ~/wac.tax/rsrv
+#   window_name: rsrv
+# - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+#   options: {}
+#   panes:
+#   - focus: 'true'
+#   - shell_command:
+#     - ./dev.sh
+#   start_directory: ~/wac.tax/clip-runtime/rust/clip_search_txt
+#   window_name: clip
+# - layout: fdd1,170x52,0,0{125x52,0,0,5,44x52,126,0,6}
+#   options: {}
+#   panes:
+#   - focus: 'true'
+#   - shell_command:
+#     - ./dev.sh
+#   start_directory: ~/wac.tax/rsrv/xws
+#   window_name: xws
